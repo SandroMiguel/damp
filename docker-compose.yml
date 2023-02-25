@@ -22,6 +22,15 @@ services:
       - dbData:/var/lib/mysql
     ports:
       - 6033:3306
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    restart: always
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: root
+    ports:
+      - "8080:80"
 volumes:
   apps:
   dbData:
