@@ -8,6 +8,7 @@ Docker setup with Apache, MySQL and PHP plus phpMyAdmin
 
 1. [Installation](#installation)
 1. [Usage](#usage)
+1. [Credits](#credits)
 1. [Contributing](#contributing)
 1. [Questions](#questions)
 
@@ -46,6 +47,11 @@ http://localhost:8000/some-website.com/
 ### phpMyAdmin
 
 http://localhost:8080/
+
+## Credits
+
+- [Apache, PHP & MySQL on Docker on Ubuntu (Nevyan Neykov)](https://www.youtube.com/watch?v=_mwWxgfZ7Zc)
+- [Configure a WEB site (PHP-Apache-Mysql) in 5 minutes with Docker (Wu Tang)](https://doc4dev.com/en/create-a-web-site-php-apache-mysql-in-5-minutes-with-docker/)
 
 ## Contributing
 
