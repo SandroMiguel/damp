@@ -37,14 +37,10 @@ docker-compose up
 
 http://localhost:8000/
 
-#### My Dashboard
-
-http://localhost:8000/my-dashboard/index.htm
-
 #### Specific app
 
-http://localhost:8000/sapatrilhas.pt/
+http://localhost:8000/some-website.com/
 
-#### phpMyAdmin
+### phpMyAdmin
 
 http://localhost:8080/
