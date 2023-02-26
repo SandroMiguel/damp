@@ -8,6 +8,8 @@ Docker setup with Apache, MySQL and PHP plus phpMyAdmin
 
 1. [Installation](#installation)
 1. [Usage](#usage)
+1. [Contributing](#contributing)
+1. [Questions](#questions)
 
 ## Installation
 
@@ -48,3 +50,7 @@ http://localhost:8080/
 ## Contributing
 
 Want to contribute? All contributions are welcome. Please read the [contributing guide](CONTRIBUTING.md).
+
+## Questions
+
+If you have questions tweet me at [@sandro_m_m](https://twitter.com/sandro_m_m) or [open an issue](../../issues/new).
