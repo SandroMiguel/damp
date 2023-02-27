@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
-Docker setup with Apache, MySQL and PHP plus phpMyAdmin
+Docker setup with Apache, MySQL, and PHP plus phpMyAdmin
 
 ## Table of Contents
 
