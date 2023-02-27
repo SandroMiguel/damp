@@ -5,14 +5,12 @@ services:
     depends_on:
       - db
     volumes:
-      # - ./apps:/var/www/html/
-      - ~/web:/var/www/html/
+      # - ./apps:/var/www/html/ # Apps stored in the same directory
+      - ~/web:/var/www/html/ # Apps stored in a different directory
     ports:
       - 8000:80
   db:
     build: ./build/mysql
-    # command: --default-authentication-plugin=mysql_native_password
-    # restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: test_db
