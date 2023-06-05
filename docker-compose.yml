@@ -27,6 +27,7 @@ services:
       PMA_HOST: db
       PMA_USER: root
       PMA_PASSWORD: root
+      UPLOAD_LIMIT: 100000000
     ports:
       - "8080:80"
 volumes:
